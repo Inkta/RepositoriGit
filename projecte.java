@@ -10,7 +10,10 @@ public class exercici {
         		if (array[i] != ' '){
         			int contador=contador(frase,array[i]);
             		System.out.println("la lletra "+array[i]+ " surt "+contador);
-        		}
+        		} if (array[i] == 1) {
+			System.out.println("Soc un Numero!!);
+				
+	}
         	}
  
         }
