@@ -7,6 +7,7 @@ public class exercici {
 		String frase=lector.nextLine();
 	        char [] array=frase.toCharArray();
         	for (int i=0;i<frase.length();i++){
+		//comentari projecte2
         		if (array[i] != ' '){
         			int contador=contador(frase,array[i]);
             		System.out.println("la lletra "+array[i]+ " surt "+contador);
