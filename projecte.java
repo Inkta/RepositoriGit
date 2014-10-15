@@ -1,7 +1,6 @@
+//comentari Projecte1
 import java.util.Scanner;
 public class exercici {
-//comentari projecte1
-
 	public static void main(String[] args) {
 		Scanner lector=new Scanner (System.in);
 		System.out.println("Escriu una frase: ");
