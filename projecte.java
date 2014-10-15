@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class exercici {
+//comentari projecte1
 
 	public static void main(String[] args) {
 		Scanner lector=new Scanner (System.in);
