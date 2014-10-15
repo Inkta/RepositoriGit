@@ -1,4 +1,4 @@
-//comentari projecte1
+//comentari projecte2
 import java.util.Scanner;
 public class exercici {
 	public static void main(String[] args) {
