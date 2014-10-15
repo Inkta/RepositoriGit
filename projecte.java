@@ -1,14 +1,11 @@
 import java.util.Scanner;
 public class exercici {
-//comentari projecte1
-
 	public static void main(String[] args) {
 		Scanner lector=new Scanner (System.in);
 		System.out.println("Escriu una frase: ");
 		String frase=lector.nextLine();
 	        char [] array=frase.toCharArray();
         	for (int i=0;i<frase.length();i++){
-		//comentari projecte2
         		if (array[i] != ' '){
         			int contador=contador(frase,array[i]);
             		System.out.println("la lletra "+array[i]+ " surt "+contador);
